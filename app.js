@@ -6,6 +6,7 @@ var express 			=	require('express')
 	, fs 				= 	require('fs')
 	, _ 				= 	require('underscore')
 	, waterfall			=	require('waterfall')
+	, favicon = require('serve-favicon')
 
 var router = express.Router()
 var data = JSON.parse(fs.readFileSync('./public/portfolio.json'))
@@ -16,6 +17,7 @@ app.set("view engine", "ejs")
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(methodOverride("_method"));
+app.use(favicon(__dirname + '/public/favicon.png'));
 
 app.get('/', function(req, res){
 

@@ -17,6 +17,7 @@
     "method-override": "^2.3.7",
     "request": "^2.79.0",
     "scrollreveal": "^3.3.2",
+    "serve-favicon": "^2.3.2",
     "underscore": "^1.8.3",
     "waterfall": "^1.0.0"
   },
