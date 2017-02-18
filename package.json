@@ -21,5 +21,9 @@
     "underscore": "^1.8.3",
     "waterfall": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dompainter/SSCL.git"
+  }
 }
