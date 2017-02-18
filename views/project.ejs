@@ -1,0 +1,60 @@
+<% include ../partials/header %>
+
+<% include ../partials/nav %>
+<div class="container-fluid home-full projects-page">
+	<div class="gallery-wrapper">
+    <div class="gallery-text">
+      <table>
+        <tr>
+          <td class="icon"><i class="fa fa-home" aria-hidden="true"></i></td>
+          <td><%=data.name%></td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+          <td><%=data.location%></td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa fa-calendar-o" aria-hidden="true"></i></td>
+          <td><%=data.dateCompleted%></td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa fa-wrench" aria-hidden="true"></i></td>
+          <td><%=data.work%></td>
+        </tr>
+      </table>
+    </div>
+    <div class="blind">
+      <div class="gallery-item" style="background-image: url('../img/projects/<%=data.folder%>/000.JPG')"></div>
+    </div>
+    <div class="triangle">
+      <i class="fa hvr-icon-hang" aria-hidden="true"></i>
+    </div>
+	</div>
+
+	<div class="col-lg-12 text-center" id='project-info'>
+
+		<div class="project-desc col-lg-6 col-md-offset-3">
+			<h1>The Work</h1>
+			<p><%=data.description%></p>
+		</div>
+		<div class="container project-grid">
+
+			<% 	var imgCounter = 1
+			data.images.forEach(function (image){
+      %> <a href="../img/projects/<%=data.folder%>/<%=image%>" data-lightbox="project">
+			<%	if(imgCounter === 1){ %>
+					<img class="grid-1" src="../img/projects/<%=data.folder%>/<%=image%>">
+			<%	} else if(imgCounter === 2 || imgCounter === 3){ %>
+					<img class="grid-2" src="../img/projects/<%=data.folder%>/<%=image%>">
+			<%	} else { %>
+					<img class="grid-3" src="../img/projects/<%=data.folder%>/<%=image%>">
+			<%	}
+				imgCounter++
+      %>
+        </a>
+		<% }) %>
+		</div>
+	</div>
+
+<% include ../partials/footer %>
+</div>

@@ -1,0 +1,15 @@
+<div id="reviews" class="container reviews-section">
+    <div class="row text-center">
+        <span class="section-title">OUR REVIEWS</span>
+    </div>
+
+    <div class="scroll col-lg-8 col-md-offset-2 carousel-content">
+      <% data.reviews.forEach(function(review){ %>
+        <div>
+          <h2><%= review.work %></h2>
+          <em><%- review.review %></em>
+          <h3><%=review.client %></h3>
+        </div>
+      <% }) %>
+    </div>
+</div>

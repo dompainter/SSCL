@@ -1,0 +1,22 @@
+<div id="projects" class="container portfolio-section">
+  <div class="col-lg-12 text-center">
+    <span class="section-title">OUR PROJECTS</span>
+  </div>
+  <div class="col-lg-12 portfolio-gallery">
+      <% var gridNumber = 0
+      data.houses.forEach(function(house){
+      var filename = house.folder + '/' + house.images[0]
+      gridNumber++
+      if(gridNumber === 2 || gridNumber === 6) { %>
+        <div class="port-img col-lg-8" style="background-image:url('img/projects/<%= filename %>')">
+      <% } else { %>
+        <div class="port-img col-lg-4" style="background-image:url('img/projects/<%= filename %>')">
+      <% } %>
+          <a href="/projects/<%=house.folder%>">
+            <span class="cell-overlay"></span>
+            <span class="cell-text"><%= house.name %></span>
+          </a>
+        </div>
+    <% }) %>
+  </div>
+</div>
