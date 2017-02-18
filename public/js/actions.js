@@ -4,7 +4,7 @@ function onImageClick(image, modalId){
 
 $('body').prepend('<a href="#" class="back-to-top"></a>');
 
-var amountScrolled = 150;
+var amountScrolled = 50;
 
 $(window).scroll(function() {
 	if ( $(window).scrollTop() > amountScrolled ) {
@@ -14,24 +14,10 @@ $(window).scroll(function() {
 	}
 });
 
-// REVEAL ITEMS
-var srOptions = { duration: 800 }
-window.sr = ScrollReveal();
-
-$('.port-img').each(function(index){
-	sr.reveal(this, { duration: 800 }, 50)
-})
-
-$('.headline-title i').each(function(index){
-	sr.reveal(this, {
-		duration: 1000,
-		origin: 'top',
-		// scale: 4.2,
-    delay: 400,
-		// rotate: {x:0, y: 180, z:0},
-	  distance: '100px'
-	})
-})
+$('a.back-to-top').click(function() {
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
 
 // SET UP PORTFOLIO GRID
 $('.grid').masonry({
@@ -49,6 +35,36 @@ lightbox.option({
 });
 
 $(document).ready(function(){
+    console.log('document ready')
+    var browser = navigator.appVersion
+    // IE check
+    if(browser.indexOf('MSIE') > -1) {
+      if(!browser.indexOf('MSIE 9.0') || !browser.indexOf('MSIE 8.0') || 
+        !browser.indexOf('MSIE 7.0')) {
+       runScrollReveal();
+      }
+    } else {
+      runScrollReveal();
+    }
+
+
+  function runScrollReveal () {
+    var srOptions = { duration: 800 }
+    window.sr = ScrollReveal();
+
+    $('.port-img').each(function(index){
+      sr.reveal(this, { duration: 800 }, 50)
+    })
+
+    $('.headline-title i').each(function(index){
+      sr.reveal(this, {
+        duration: 600,
+        origin: 'top',
+        delay: 100,
+        distance: '100px'
+      })
+    })
+  }
 
   // AUTO SET BANNER HEIGHT
   function setHeight(){
@@ -60,27 +76,33 @@ $(document).ready(function(){
       windowHeight = windowHeight - footerHeight
       $('.error-wrapper').css('height', windowHeight)
     }
+
+    $('.gallery-wrapper').css('opacity', '1')
+  }
+
+  function setTriangle() {
+    var windowWidth = $(window).width();
+    $('.triangle').css('left', (windowWidth / 2) - 40)
   }
 
   setHeight();
+  setTriangle();
+
 
   $(window).resize(function() {
     setHeight();
+    setTriangle();
   });
 
   // HOVER DROPDOWN MENU
   $('ul.nav li.dropdown').hover(function() {
-    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    $(this).find('.dropdown-menu').stop(true, true).delay(50).fadeIn(250);
   }, function() {
-    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    $(this).find('.dropdown-menu').stop(true, true).delay(50).fadeOut(250);
   });
 
-  $('ul.nav li.dropdown').click(function() {
-    $(this).toggleClass('open');
-  });
-
+  // Slick slider
   $('.scroll').slick({
-    dots: true,
     infinite: true,
     speed: 300,
     slidesToShow: 1
@@ -92,11 +114,11 @@ $(document).ready(function(){
   $(".hvr-icon-hang").click(function() {
     if(aboutSection.length > 0) {
       $('html, body').animate({
-          scrollTop: aboutSection.offset().top - 55
+          scrollTop: aboutSection.offset().top - 50
       }, 1000);
     } else {
       $('html, body').animate({
-          scrollTop: projectInfo.offset().top - 55
+          scrollTop: projectInfo.offset().top - 50
       }, 1000);
     }
 
@@ -136,10 +158,11 @@ $(document).on('click', 'a', function(event){
 		if (link.indexOf('/') > -1) {
 			link = link.substr(1)
 		}
-
-    $('html, body').animate({
-        scrollTop: $( link ).offset().top - 50
-    }, 1000);
+    if ($('.projhects-page').length < 1) {
+      $('html, body').animate({
+          scrollTop: $( link ).offset().top - 50
+      }, 1000);
+     }
 });
 
 // CONTACT FORM EMAIL

@@ -7,7 +7,9 @@
       <% data.reviews.forEach(function(review){ %>
         <div>
           <h2><%= review.work %></h2>
-          <em><%- review.review %></em>
+          <p><i class="fa fa-quote-left" aria-hidden="true"></i>
+          <%- review.review %>
+          <i class="fa fa-quote-right" aria-hidden="true"></i></p>
           <h3><%=review.client %></h3>
         </div>
       <% }) %>

@@ -1,27 +1,27 @@
 {
 	"houses": [
 		{
-			"id":"1",
-			"folder":"tuthill-cottage",
-			"name": "Tuthill Cottage",
-			"location": "Lydney",
-			"work":"Kitchen Extension",
-			"dateCompleted":"2013 May",
-			"description":"Small, complex ground floor kitchen extension, incorporating many steel supports in order to remove the external wall. Inside includes an inframe fitted kitchen, with limestone floor and underfloor heating.",
+			"id":"9",
+			"folder":"randalls-green",
+			"name": "Randalls Green",
+			"location": "Randalls Green",
+			"work":"New Build",
+			"dateCompleted":"2015",
+			"description":"New build 4 bedroom timber framed house with larch cladding. Includes aluminium windows, Cotswold stone tiles, slate terrace with glass balustrade.",
 			"images": [
-				"000.JPG", "008.JPG", "007.JPG","005.JPG","004.JPG","003.JPG","002.JPG","001.JPG", "006.JPG"
+				"000.JPG", "006.JPG","004.JPG","007.JPG","005.JPG","003.JPG","002.JPG","009.JPG","010.JPG","008.JPG","001.JPG"
 			]
 		},
 		{
-			"id":"3",
-			"name": "Abbeydale Orangery",
-			"folder":"abbeydale-orangery",
-			"location": "Abbeydale",
+			"id":"6",
+			"folder":"france-lynch",
+			"name": "France Lynch Orangery",
+			"location": "France Lynch",
 			"work":"Orangery",
-			"dateCompleted":"2012 Oct",
-			"description":"Orangery with glass roof and double glazed PVCU windows. Using bricks and stone sills to match existing building. Feature Indian Sandstone paving around orangery.",
+			"dateCompleted":"2013 Oct",
+			"description":"New timber framed orangery extension with reclaimed Cotswold stone walls and glass lantern roof. Indian Sandstone paving surrounding extension. Built new stone chimney. Inside includes limestone paving with underfloor heating to create an open plan area. ",
 			"images": [
-				"000.JPG", "003.JPG","002.JPG","001.JPG"
+				"000.JPG", "016.JPG","015.JPG","014.JPG","013.JPG","012.JPG","011.JPG","010.JPG","009.JPG","008.JPG","007.JPG","006.JPG","005.JPG","004.JPG","003.JPG","002.JPG"
 			]
 		},
 		{
@@ -37,15 +37,27 @@
 			]
 		},
 		{
-			"id":"6",
-			"folder":"france-lynch",
-			"name": "France Lynch Orangery",
-			"location": "France Lynch",
+			"id":"3",
+			"name": "Abbeydale Orangery",
+			"folder":"abbeydale-orangery",
+			"location": "Abbeydale",
 			"work":"Orangery",
-			"dateCompleted":"2013 Oct",
-			"description":"New timber framed orangery extension with reclaimed Cotswold stone walls and glass lantern roof. Indian Sandstone paving surrounding extension. Built new stone chimney. Inside includes limestone paving with underfloor heating to create an open plan area. ",
+			"dateCompleted":"2012 Oct",
+			"description":"Orangery with glass roof and double glazed PVCU windows. Using bricks and stone sills to match existing building. Feature Indian Sandstone paving around orangery.",
 			"images": [
-				"000.JPG", "016.JPG","015.JPG","014.JPG","013.JPG","012.JPG","011.JPG","010.JPG","009.JPG","008.JPG","007.JPG","006.JPG","005.JPG","004.JPG","003.JPG","002.JPG","001.JPG"
+				"000.JPG", "003.JPG","002.JPG","001.JPG"
+			]
+		},
+		{
+			"id":"1",
+			"folder":"tuthill-cottage",
+			"name": "Tuthill Cottage",
+			"location": "Lydney",
+			"work":"Kitchen Extension",
+			"dateCompleted":"2013 May",
+			"description":"Small, complex ground floor kitchen extension, incorporating many steel supports in order to remove the external wall. Inside includes an inframe fitted kitchen, with limestone floor and underfloor heating.",
+			"images": [
+				"000.JPG", "008.JPG", "007.JPG","005.JPG","004.JPG","003.JPG","002.JPG","001.JPG", "006.JPG"
 			]
 		},
 		{
@@ -57,7 +69,7 @@
 			"dateCompleted":"2014",
 			"description":"4 bedroom detached timber framed house with oak garage. Features include feature brickwork such as window arches and corbling band. Inside features oak flooring, wood burner fireplace and limestone tiled kitchen flooring.",
 			"images": [
-				"000.JPG", "007.JPG", "008.JPG","006.JPG","005.JPG","004.JPG","003.JPG","002.JPG","001.JPG"
+				"000.JPG", "007.JPG", "008.JPG","006.JPG","004.JPG","003.JPG","002.JPG","001.JPG"
 			]
 		},
 		{
@@ -71,35 +83,23 @@
 			"images": [
 				"000.JPG", "001.JPG","002.JPG","003.JPG","004.JPG","005.JPG","006.JPG","007.JPG"
 			]
-		},
-		{
-			"id":"9",
-			"folder":"randalls-green",
-			"name": "Randalls Green",
-			"location": "Randalls Green",
-			"work":"New Build",
-			"dateCompleted":"2015",
-			"description":"New build 4 bedroom timber framed house with larch cladding. Includes aluminium windows, Cotswold stone tiles, slate terrace with glass balustrade.",
-			"images": [
-				"000.JPG", "006.JPG","004.JPG","007.JPG","005.JPG","003.JPG","002.JPG","009.JPG","010.JPG","008.JPG","001.JPG"
-			]
 		}
 	],
 	"reviews": [
 		{
 			"client":"Carol Dyer",
 			"work":"New Kitchen and Utility Room",
-			"review":"<p>I have had the pleasure of Severnside Construction building a new kitchen and utility room for the past few months. So far I have been delighted with the work and have felt involved in all decisions at every step of the way.</p><p>Everything has been completed to my needs and requests and most importantly all on time. Greg and his team have been respectful of my home whenever they have needed access. Throughout the build, had any changes in the price or specification occurred, I was informed immediately and I was able to talk through them with Greg.</p><p>I would certainly recommend Severnside Construction to anyone looking for a pleasant, professional, hard-working team. I look forward to seeing the end result.</p>"
+			"review":"I have had the pleasure of Severnside Construction building a new kitchen and utility room for the past few months. So far I have been delighted with the work and have felt involved in all decisions at every step of the way.<br /><br />Everything has been completed to my needs and requests and most importantly all on time. Greg and his team have been respectful of my home whenever they have needed access. Throughout the build, had any changes in the price or specification occurred, I was informed immediately and I was able to talk through them with Greg.<br /><br />I would certainly recommend Severnside Construction to anyone looking for a pleasant, professional, hard-working team. I look forward to seeing the end result."
 		},
 		{
 			"client":"Richard Bedford",
 			"work":"Demolishing and rebuilding a collapsing retaining block wall",
-			"review":"<p>After obtaining several quotations, we selected Severnside Construction to demolish and rebuild a collapsing retaining block wall approx. 7m long x 1.7m high. The quotation was detailed, clear and competitive proposing a robust solution to our problem. The works started on time and were finished efficiently and effectively to specification and the price we paid was exactly what was quoted. Communications throughout the process were easy and helpful with minimal need to supervise on site on our part. Overall we are very satisfied and have no hesitation in recommending Greg and Severnside for similar projects.</p>"
+			"review":"After obtaining several quotations, we selected Severnside Construction to demolish and rebuild a collapsing retaining block wall approx. 7m long x 1.7m high. The quotation was detailed, clear and competitive proposing a robust solution to our problem.<br /><br />The works started on time and were finished efficiently and effectively to specification and the price we paid was exactly what was quoted. Communications throughout the process were easy and helpful with minimal need to supervise on site on our part. Overall we are very satisfied and have no hesitation in recommending Greg and Severnside for similar projects."
 		},
 		{
 			"client":"Tom Cummins",
 			"work":"Orangery",
-			"review":"<p>I cannot speak highly enough of Greg and his team, nothing was too much trouble, they always arrived each day exactly on time, sourced bricks to match the existing property which was not an easy task, and resulted in them having to reject some deliveries. They initially laid boards and planks to protect the garden where possible and took the trouble to sweep and clean the road each day.</p><p>Sevenside Construction have their own machines, and therefore do not have to hire in plant, this is a great advantage, as this gave them more flexibility in what was terrible weather conditions, and unexpected deep foundations.</p><p>Their workmanship was as I expected first class, the brickwork looks superb and the main roof supplier surveyor has commented that he has never ever come across such accuracy from a builder, similar comments were also made by the roof installer / window supplier and installer.</p><p>I have no hesitation in recommending Sevenside Construction Ltd, certainly a team that is professional, hard working and easy to get on with.</p>"
+			"review":"I cannot speak highly enough of Greg and his team, nothing was too much trouble, they always arrived each day exactly on time, sourced bricks to match the existing property which was not an easy task, and resulted in them having to reject some deliveries. They initially laid boards and planks to protect the garden where possible and took the trouble to sweep and clean the road each day.<br /><br />Sevenside Construction have their own machines, and therefore do not have to hire in plant, this is a great advantage, as this gave them more flexibility in what was terrible weather conditions, and unexpected deep foundations.<br /><br />Their workmanship was as I expected first class, the brickwork looks superb and the main roof supplier surveyor has commented that he has never ever come across such accuracy from a builder, similar comments were also made by the roof installer / window supplier and installer.<br /><br />I have no hesitation in recommending Sevenside Construction Ltd, certainly a team that is professional, hard working and easy to get on with."
 		}
 	]
 }
