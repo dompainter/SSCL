@@ -25,5 +25,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/dompainter/SSCL.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/dompainter/SSCL/issues"
+  },
+  "homepage": "https://github.com/dompainter/SSCL#readme"
 }
